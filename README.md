@@ -1,4 +1,6 @@
-# CloudCode
+# CloudCode https://code.recursion.is
+
+Powered by Piston and CodeMirror
 
 ## Features
 
@@ -47,5 +49,5 @@ npm start
 - https://github.com/Rishabh-malhotraa/caucus
 
 ## Contributors
-This project was originally forked from the "Open Source Interview Plaform with Video Call Support (WebRTC) and a Realtime Collaborate Editor with Compiler (Piston) Vartalaap" by Yashwant Saini:
+This project was originally forked from "Vartalaap" by Yashwant Saini, an Open Source Interview Plaform with Video Call Support (WebRTC) and a Realtime Collaborate Editor with Compiler (Piston):
 <a href="https://meyash.xyz/" style="margin-right:30px;"><img src="https://meyash.xyz/assets/icons/siteicon.png" width="25"></a>
