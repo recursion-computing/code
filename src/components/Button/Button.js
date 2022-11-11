@@ -5,7 +5,7 @@ import {
   ThemeProvider,
 } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import { green, purple } from "@material-ui/core/colors";
+import { green, purple, lightgray } from "@material-ui/core/colors";
 
 const theme = createTheme({
   palette: {

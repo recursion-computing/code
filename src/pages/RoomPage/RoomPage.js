@@ -147,6 +147,16 @@ const SwitchTab = () => {
     history.push("/");
   };
 
+  const unrealButtonHandler = () => {
+    if (navigator.appVersion.includes("UE5")){
+      document.getElementById("unreal").innerHTML="Unreal";
+    } else {
+      document.getElementById("unreal").innerHTML="notunreal";
+    }
+  };
+
+
+
   return (
     <div className={`working-space ${classes.root}`}>
       {/* <AppBar position="static">
@@ -198,6 +208,7 @@ const SwitchTab = () => {
           <Grid item xs={12} sm={3} md={2} lg={2}>
             <div className="react-select-drops">
               <Select
+                variant="outlined"
                 menuPortalTarget={document.body}
                 styles={{ menuPortal: (base) => ({ ...base, zIndex: 9999 }) }}
                 onChange={keymapsChangeHandler}
@@ -208,6 +219,16 @@ const SwitchTab = () => {
               />
             </div>
           </Grid>
+          <Button
+              variant="outlined"
+              color="white"
+              //startIcon={<HomeIcon />}
+              onClick={unrealButtonHandler}
+              className={clsx(classes.buttons)}
+              id="unreal"
+            >
+              Unreal Button
+          </Button>
         </Grid>
         <CodeEditor language={currentLang} />
       </TabPanel>

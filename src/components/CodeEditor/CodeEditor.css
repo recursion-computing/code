@@ -11,6 +11,8 @@
 
 .CodeMirror {
   border-radius: 5px;
+  background-color: rgba(238, 238, 238, 0.5);
+  opacity: 0.8;
 }
 
 .CodeMirror-gutter {
